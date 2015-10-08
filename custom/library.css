@@ -1,0 +1,26 @@
+body {
+	/*background-color: purple;*/
+    background: #c5a7D9 url(../img/clouds.png) left top repeat;
+    background-attachment: fixed;
+}
+.nav > li > a {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.header-font {
+    font: 95px/1.4em "fredericka the great",fantasy;
+    color: #f26524;
+}
+.header-font-yellow {
+    font: 95px/1.4em "fredericka the great",fantasy;
+    color: #F0CB00;
+}
+.header-font-navy-blue {
+    font: 95px/1.4em "fredericka the great",fantasy;
+    color: #189395;
+}
+.content-font {
+    font: 21px/1.4em "fredericka the great",fantasy;
+    color: #0088cb;
+}
