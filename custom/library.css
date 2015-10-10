@@ -7,20 +7,48 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
-
 .header-font {
-    font: 95px/1.4em "fredericka the great",fantasy;
-    color: #f26524;
-}
-.header-font-yellow {
-    font: 95px/1.4em "fredericka the great",fantasy;
-    color: #F0CB00;
-}
-.header-font-navy-blue {
-    font: 95px/1.4em "fredericka the great",fantasy;
-    color: #189395;
+    font: 3em "fredericka the great",fantasy;
 }
 .content-font {
-    font: 21px/1.4em "fredericka the great",fantasy;
+    font: 1.6em "fredericka the great",fantasy;
     color: #0088cb;
+}
+.container {
+    font: 1em "fredericka the great",fantasy;
+}
+.purple {
+    color: #441d5f;
+}
+.orange {
+    color: #f26524;
+}
+.turquoise {
+  color: #189395;
+}
+.yellow {
+    color: #ffcb05;
+}
+.navy-blue {
+    color: #189395;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header-font {
+        font: 4em "fredericka the great",fantasy;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header-font {
+        font: 5em "fredericka the great",fantasy;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header-font {
+        font: 6em "fredericka the great",fantasy;
+    }
 }
