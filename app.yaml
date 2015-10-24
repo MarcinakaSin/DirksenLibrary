@@ -8,8 +8,23 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+- url: /about.html
+  static_files: about.html
+  upload: about.html
+- url: /helpful.html
+  static_files: helpful.html
+  upload: helpful.html
+- url: /custom/justified-nav.css
+  static_files: custom/justified-nav.css
+  upload: custom/justified-nav.css
+- url: /custom/library.css
+  static_files: custom/library.css
+  upload: custom/library.css
 
 # access the static resources in the root director
-- url: /(.*)
-  static_files: \1
-  upload: (.*)
+- url: /img/(.*)
+  static_files: img/\1
+  upload: img/(.*)
