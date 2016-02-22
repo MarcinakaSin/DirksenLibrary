@@ -4,11 +4,11 @@ body {
 	background-attachment: fixed;
 }
 .content-font {
-    font: 1.6em "fredericka the great",fantasy;
+    font: 1.6em $fredericka;
     color: $blue;
 }
 .container {
-    font: 1em "fredericka the great",fantasy;
+    font: 1em $fredericka;
 }
 .purple {
     color: $purple;

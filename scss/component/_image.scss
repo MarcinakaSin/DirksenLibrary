@@ -1,16 +1,9 @@
 .img {
-	&-circle {
-	    transition: all 1s ease-out;
-		&:hover {
-		    transform: rotate(360deg) scale(1.2);
-		    box-shadow: #90e0ff 4px 4px 4px;
-		} 
-	}
+	&-circle,
 	&-thumbnail {
 	    transition: all 1s ease-out;
 		&:hover {
-		    transform: rotate(360deg) scale(1.2);
-		    box-shadow: #90e0ff 4px 4px 4px;
-		}
+		    @extend %img-hover-transform;
+		} 
 	}
 }

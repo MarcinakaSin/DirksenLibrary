@@ -1,8 +1,24 @@
 
 /* Colors */
-$purple		: #441d5f;
-$orange		: #f26524;
-$turquoise	: #189395;
-$yellow		: #ffcb05;
-$blue 		: #0088cb;
-$navy-blue	: #189395;
+
+$purple			: #441d5f;
+$orange			: #f26524;
+$lte-orange		: #f27624;
+$turquoise		: #189395;
+$yellow			: #ffcb05;
+$blue 			: #0088cb;
+$navy-blue		: #189395;
+
+/* Fonts */
+
+$fredericka		: "fredericka the great",fantasy;
+
+/* Box-Shadows */
+
+$img-b-shadow	: #90e0ff 4px 4px 4px;
+
+/* Media Query Breakpoints */
+
+$brk-small		: '(min-width: 768px)';
+$brk-mid		: '(min-width: 992px)';
+$brk-wide		: '(min-width: 1200px)';

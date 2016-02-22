@@ -5813,81 +5813,75 @@ button.close {
 /* bourbon for backwords compatability */
 /* site stylesheets */
 /* Colors */
-.img-circle {
+/* Fonts */
+/* Box-Shadows */
+/* Media Query Breakpoints */
+/* Img Transforms */
+.img-circle:hover, .img-thumbnail:hover {
+  transform: rotate(360deg) scale(1.2);
+  box-shadow: #90e0ff 4px 4px 4px; }
+
+.img-circle, .img-thumbnail {
   transition: all 1s ease-out; }
-  .img-circle:hover {
-    transform: rotate(360deg) scale(1.2);
-    box-shadow: #90e0ff 4px 4px 4px; }
-.img-thumbnail {
-  transition: all 1s ease-out; }
-  .img-thumbnail:hover {
-    transform: rotate(360deg) scale(1.2);
-    box-shadow: #90e0ff 4px 4px 4px; }
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   background-color: transparent; }
-
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px; }
+  .jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px; }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 .nav-justified, .nav-tabs.nav-justified {
   background-color: #eee;
   border: 1px solid #ccc;
   border-radius: 5px; }
-
-.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-bottom: 0;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  background-color: #f26524;
-  /* Old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f26524), to(#f27624));
-  background-image: -webkit-linear-gradient(top, #f26524 0%, #f27624 100%);
-  background-image: -o-linear-gradient(top, #f26524 0%, #f27624 100%);
-  background-image: linear-gradient(to bottom, #f26524 0%, #f27624 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26524', endColorstr='#f27624',GradientType=0 );
-  /* IE6-9 */
-  background-repeat: repeat-x;
-  /* Repeat the gradient */
-  border-bottom: 1px solid #f26524; }
-
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
-  background-color: #37BDBF;
-  background-image: none;
-  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15); }
-
-.nav-justified > li:first-child > a {
-  border-radius: 5px 5px 0 0; }
-
-.nav-justified > li:last-child > a {
-  border-bottom: 0;
-  border-radius: 0 0 5px 5px; }
-
-@media (min-width: 768px) {
-  .nav-justified, .nav-tabs.nav-justified {
-    max-height: 52px; }
-
+  @media (min-width: 768px) {
+    .nav-justified, .nav-tabs.nav-justified {
+      max-height: 52px; } }
   .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-right: 1px solid #f26524;
-    border-left: 1px solid #fff; }
-
+    word-wrap: nowrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: #f26524;
+    /* Old browsers */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f26524), to(#f27624));
+    background-image: -webkit-linear-gradient(top, #f26524 0%, #f27624 100%);
+    background-image: -o-linear-gradient(top, #f26524 0%, #f27624 100%);
+    background-image: linear-gradient(to bottom, #f26524 0%, #f27624 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$orange', endColorstr='$lte-orange',GradientType=0 );
+    /* IE6-9 */
+    background-repeat: repeat-x;
+    /* Repeat the gradient */
+    border-bottom: 1px solid #f26524; }
+    @media (min-width: 768px) {
+      .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+        border-right: 1px solid #f26524;
+        border-left: 1px solid #fff; } }
   .nav-justified > li:first-child > a {
-    border-left: 0;
-    border-radius: 5px 0 0 5px; }
-
+    border-radius: 5px 5px 0 0; }
+    @media (min-width: 768px) {
+      .nav-justified > li:first-child > a {
+        border-left: 0;
+        border-radius: 5px 0 0 5px; } }
   .nav-justified > li:last-child > a {
-    border-right: 0;
-    border-radius: 0 5px 5px 0; } }
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px; }
+    @media (min-width: 768px) {
+      .nav-justified > li:last-child > a {
+        border-right: 0;
+        border-radius: 0 5px 5px 0; } }
+  .nav-justified > .active > a, .nav-justified > .active > a:hover, .nav-justified > .active > a:focus {
+    background-color: #37BDBF;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15); }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -5900,6 +5894,9 @@ button.close {
   padding-right: 0px;
   padding-left: 0px; }
 
+/* --------------------------
+  Stars SVG (start)
+--------------------------- */
 /* --------------------------
   Base
 --------------------------- */
@@ -5952,44 +5949,45 @@ svg {
     animation-delay: 0s, 1.5s; }
   .star:nth-of-type(3) {
     animation-delay: .8s, 2s; }
+  .stars:hover .star {
+    animation: offset .8s 2.2s ease-out; }
 
+/* --------------------------
+  Stars SVG (end)
+--------------------------- */
 .footer {
   padding: 40px 0px;
   margin-top: 40px;
   border-top: 1px solid #eee; }
 
 .header-font {
-  font: 3em "fredericka the great",fantasy;
+  font: 3em "fredericka the great", fantasy;
   text-shadow: #90e0ff 4px 2px 2px;
   transition: all 1s ease; }
+  @media (min-width: 768px) {
+    .header-font {
+      font: 4em "fredericka the great", fantasy; } }
+  @media (min-width: 992px) {
+    .header-font {
+      font: 5em "fredericka the great", fantasy; } }
+  @media (min-width: 1200px) {
+    .header-font {
+      font: 6em "fredericka the great", fantasy; } }
+  .header-font:hover {
+    text-shadow: #20ec00 4px 2px 2px;
+    transform: scale(1.1); }
 
-.header-font:hover {
-  text-shadow: #20ec00 4px 2px 2px;
-  transform: scale(1.1); }
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .header-font {
-    font: 4em "fredericka the great",fantasy; } }
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .header-font {
-    font: 5em "fredericka the great",fantasy; } }
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .header-font {
-    font: 6em "fredericka the great",fantasy; } }
 body {
   padding-top: 20px;
   background: #c5a7d9 url(../img/clouds.png) left top repeat;
   background-attachment: fixed; }
 
 .content-font {
-  font: 1.6em "fredericka the great",fantasy;
+  font: 1.6em "fredericka the great", fantasy;
   color: #0088cb; }
 
 .container {
-  font: 1em "fredericka the great",fantasy; }
+  font: 1em "fredericka the great", fantasy; }
 
 .purple {
   color: #441d5f; }

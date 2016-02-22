@@ -1,30 +1,19 @@
 
 .header-font {
-    font: 3em "fredericka the great",fantasy;
+    font: 3em $fredericka;
     text-shadow: #90e0ff 4px 2px 2px;
     transition: all 1s ease;
-}
-.header-font:hover {
-    text-shadow: #20ec00 4px 2px 2px;
-    transform: scale(1.1);
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .header-font {
-        font: 4em "fredericka the great",fantasy;
+    @media #{$brk-small} {
+        font: 4em $fredericka;
     }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .header-font {
-        font: 5em "fredericka the great",fantasy;
+    @media #{$brk-mid} {
+        font: 5em $fredericka;
     }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .header-font {
-        font: 6em "fredericka the great",fantasy;
+    @media #{$brk-wide} {
+        font: 6em $fredericka;
+    }
+    &:hover {
+        text-shadow: #20ec00 4px 2px 2px;
+        transform: scale(1.1);
     }
 }
